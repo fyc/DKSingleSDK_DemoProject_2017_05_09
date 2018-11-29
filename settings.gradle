@@ -1,0 +1,2 @@
+include ':dKSingleSDK_SDKProject_2011'
+include ':dKSingleSDK_DemoProject_2011'

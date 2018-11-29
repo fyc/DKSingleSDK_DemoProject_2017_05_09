@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile files('libs/alipaySdk-20160809.jar')
+    compile files('libs/android_api_game_1_1.jar')
+    compile files('libs/async-httpclient-1.2.0.jar')
+    compile files('libs/bdpwxpaysdk.jar')
+    compile files('libs/dk_game_sdk_1_1.jar')
+    compile files('libs/DKSingleSDK2_0_11_0505_final.jar')
+    compile files('libs/galaxy-lite-1.0.0.jar')
+    compile files('libs/ipaynow_onlywechat_v2.0.2d.jar')
+    compile files('libs/mmbilling3.1.10.jar')
+    compile files('libs/Multimode_UniPay_base.jar')
+    compile files('libs/need_lib.jar')
+    compile files('libs/pushservice-5.5.0.50.jar')
+    compile files('libs/sapi-core-6.11.2.jar')
+    compile files('libs/universal-image-loader-1.9.2.jar')
+}
