@@ -18,19 +18,19 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.2.1'
-    compile files('libs/alipaySdk-20160809.jar')
-    compile files('libs/android_api_game_1_1.jar')
-    compile files('libs/async-httpclient-1.2.0.jar')
-    compile files('libs/bdpwxpaysdk.jar')
-    compile files('libs/dk_game_sdk_1_1.jar')
-    compile files('libs/DKSingleSDK2_0_11_0505_final.jar')
-    compile files('libs/galaxy-lite-1.0.0.jar')
-    compile files('libs/ipaynow_onlywechat_v2.0.2d.jar')
-    compile files('libs/mmbilling3.1.10.jar')
-    compile files('libs/Multimode_UniPay_base.jar')
-    compile files('libs/need_lib.jar')
-    compile files('libs/pushservice-5.5.0.50.jar')
-    compile files('libs/sapi-core-6.11.2.jar')
-    compile files('libs/universal-image-loader-1.9.2.jar')
+    api 'com.android.support:support-v4:22.2.1'
+    api files('libs/alipaySdk-20160809.jar')
+    api files('libs/android_api_game_1_1.jar')
+    api files('libs/async-httpclient-1.2.0.jar')
+    api files('libs/bdpwxpaysdk.jar')
+    api files('libs/dk_game_sdk_1_1.jar')
+    api files('libs/DKSingleSDK2_0_11_0505_final.jar')
+    api files('libs/galaxy-lite-1.0.0.jar')
+    api files('libs/ipaynow_onlywechat_v2.0.2d.jar')
+    api files('libs/mmbilling3.1.10.jar')
+    api files('libs/Multimode_UniPay_base.jar')
+    api files('libs/need_lib.jar')
+    api files('libs/pushservice-5.5.0.50.jar')
+    api files('libs/sapi-core-6.11.2.jar')
+    api files('libs/universal-image-loader-1.9.2.jar')
 }
