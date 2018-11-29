@@ -7,7 +7,7 @@ import android.os.Handler;
 
 import com.duoku.platform.single.DKPlatform;
 
-import cn.cmgame.billing.api.GameOpenActivity;
+//import cn.cmgame.billing.api.GameOpenActivity;
 
 /**
  * Created by WuYuanhong on 17/3/1.
@@ -23,7 +23,7 @@ public class MiguActivity extends Activity {
 			@Override
 			public void run() {
 				    Intent intent = new Intent();
-			        intent.setClass(MiguActivity.this, GameOpenActivity.class);
+			        intent.setClass(MiguActivity.this, GameMainActivity.class);
 			        startActivity(intent);
 			        finish();
 			}

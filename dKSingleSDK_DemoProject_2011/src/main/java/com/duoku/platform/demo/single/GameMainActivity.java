@@ -18,7 +18,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
 
-import cn.cmgame.billing.api.GameInterface;
+//import cn.cmgame.billing.api.GameInterface;
 
 import com.duoku.demo.single.data.DemoRecordData;
 import com.duoku.demo.single.data.DemoDBDao;
@@ -285,19 +285,19 @@ public class GameMainActivity extends BaseActivity{
 	 */
 	private void exitWithMigu() {
 		//咪咕基地退出接口 start
-		try {
-			GameInterface.exit(activity, new GameInterface.GameExitCallback() {
-				@Override
-				public void onConfirmExit() {
-					exitGameDirectly();
-				}
-				@Override
-				public void onCancelExit() {
-				}
-			});
-		}catch (Exception e){
-			e.printStackTrace();
-		}
+//		try {
+//			GameInterface.exit(activity, new GameInterface.GameExitCallback() {
+//				@Override
+//				public void onConfirmExit() {
+//					exitGameDirectly();
+//				}
+//				@Override
+//				public void onCancelExit() {
+//				}
+//			});
+//		}catch (Exception e){
+//			e.printStackTrace();
+//		}
 		//咪咕基地退出接口 end
 	}
 	

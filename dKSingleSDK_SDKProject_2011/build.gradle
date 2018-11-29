@@ -15,6 +15,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    sourceSets {  //差不多的设置
+        main {
+            //通过设置jni目录为空，我们可不使用apk插件的jni编译功能。为什么？因为据说
+            //APK插件的jni功能好像不是很好使....晕菜
+//            jni.srcDirs = []
+//            jniLibs.srcDir 'libs'
+//            aidl.srcDirs=['src']
+//            java.srcDirs=['src']
+//            res.srcDirs=['res']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
