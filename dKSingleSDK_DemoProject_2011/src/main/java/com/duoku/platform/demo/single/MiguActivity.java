@@ -18,7 +18,7 @@ public class MiguActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         //移动基地初始化
-        DKPlatform.getInstance().invokeGBInit(getApplication());
+//        DKPlatform.getInstance().invokeGBInit(getApplication());
         new Handler().postDelayed(new Runnable() {
 			@Override
 			public void run() {
